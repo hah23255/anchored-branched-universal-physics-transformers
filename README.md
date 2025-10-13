@@ -1,8 +1,6 @@
 # Anchored-branched Universal Physics Transformers
 
-Run the tutorial direclty in [colab](https://colab.research.google.com/github/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/tutorial.ipynb).
-
-Implementation of [AB-UPT](https://arxiv.org/abs/2502.09692) containing:
+Implementation of [AB-UPT](https://arxiv.org/abs/2502.09692), published in [Transactions on Machine Learning Research](https://openreview.net/forum?id=nwQ8nitlTZ),  containing:
 - Model implementation [src/model.py](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/src/model.py)
 - DrivAerML dataset implementation [src/drivaerml_dataset.py](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/src/drivaerml_dataset.py)
 - Preprocessing pipeline [src/abupt_collator.py](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/src/abupt_collator.py)
@@ -29,12 +27,11 @@ If our work sparked your interest, check out our other works and resources!
 
 - [AB-UPT demo](https://demo.emmi.ai/)
 - [UPT overview](https://youtu.be/mfrmCPOn4bs)
-- [Computer vision for large-scale neural physics simulations (covering UPT and NeuralDEM)](https://youtu.be/6lK2E8qn5bE)
 
 
 ## Code
 
-- [UPT code](https://github.com/ml-jku/UPT/)
+- [NeuralDEM] (https://github.com/Emmi-AI/NeuralDEM)
 - [UPT tutorial](https://github.com/BenediktAlkin/upt-tutorial)
 
 
@@ -43,10 +40,14 @@ If our work sparked your interest, check out our other works and resources!
 If you like our work, please consider giving it a star :star: and cite us
 
 ```
-@article{alkin2025abupt,
-  title={{AB-UPT}: Scaling Neural CFD Surrogates for High-Fidelity Automotive Aerodynamics Simulations via Anchored-Branched Universal Physics Transformers},
-  author={Benedikt Alkin and Maurits Bleeker and Richard Kurle and Tobias Kronlachner and Reinhard Sonnleitner and Matthias Dorfer and Johannes Brandstetter},
-  journal={arXiv preprint arXiv:2502.09692},
-  year={2025}
+@article{
+alkin2025abupt,
+title={{AB}-{UPT}: Scaling Neural {CFD} Surrogates for High- Fidelity Automotive Aerodynamics Simulations via Anchored- Branched Universal Physics Transformers},
+author={Benedikt Alkin and Maurits Bleeker and Richard Kurle and Tobias Kronlachner and Reinhard Sonnleitner and Matthias Dorfer and Johannes Brandstetter},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=nwQ8nitlTZ},
+note={}
 }
 ```
