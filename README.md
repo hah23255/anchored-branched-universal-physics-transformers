@@ -1,16 +1,16 @@
 # Anchored-branched Universal Physics Transformers
 
-Implementation of [AB-UPT](https://arxiv.org/abs/2502.09692), published in [Transactions on Machine Learning Research](https://openreview.net/forum?id=nwQ8nitlTZ),  containing:
+Implementation of [AB-UPT](https://arxiv.org/abs/2502.09692), published in [Transactions on Machine Learning Research](https://openreview.net/forum?id=nwQ8nitlTZ), containing:
 - Model implementation [src/model.py](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/src/model.py)
 - DrivAerML dataset implementation [src/drivaerml_dataset.py](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/src/drivaerml_dataset.py)
 - Preprocessing pipeline [src/abupt_collator.py](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/src/abupt_collator.py)
 
 The [tutorial.ipynb](https://github.com/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/tutorial.ipynb) notebook showcases various aspects of our work:
-- DrivAerML data download, inspection and visualization
+- DrivAerML data download, inspection, and visualization
 - Preprocessing data for AB-UPT
-- Running inference with AB-UPT to calculate MSE, L2 error, drag/lift coefficients and streamline velocity visualizations
+- Running inference with AB-UPT to calculate MSE, L2 error, drag/lift coefficients, and streamline velocity visualizations
 
-We recommend to check it out yourself in an interactive [google colab](https://colab.research.google.com/github/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/tutorial.ipynb) runtime.
+We recommend checking it out yourself in an interactive [Google Colab](https://colab.research.google.com/github/Emmi-AI/anchored-branched-universal-physics-transformers/blob/main/tutorial.ipynb) runtime.
 
 # Further resources
 
@@ -22,18 +22,16 @@ If our work sparked your interest, check out our other works and resources!
 - [NeuralDEM](https://arxiv.org/abs/2411.09678)
 - [AB-UPT](https://arxiv.org/abs/2502.09692)
 
-
 ## Videos/Visualizations
 
 - [AB-UPT demo](https://demo.emmi.ai/)
-- [UPT overview](https://youtu.be/mfrmCPOn4bs)
-
+- [UPT talk](https://youtu.be/mfrmCPOn4bs)
+- [AB-UPT talk](https://www.youtube.com/watch?v=ERx5MHaZ1Jk)
 
 ## Code
 
 - [NeuralDEM](https://github.com/Emmi-AI/NeuralDEM)
 - [UPT tutorial](https://github.com/BenediktAlkin/upt-tutorial)
-
 
 # Citation
 
